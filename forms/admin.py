@@ -8,8 +8,8 @@ class FormAdmin(admin.ModelAdmin):
         "created_at",
         "updated_by",
         "updated_at",
-        "schema",
-        "uischema",
+        # "schema",
+        # "uischema",
     ]
 
     fields = [
